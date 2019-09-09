@@ -1,0 +1,269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"forma",
+				"JSFMT: Format the current file"
+			],
+			[
+				"format",
+				"JSFMT: Format the current file"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"box",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"icon",
+				"A File Icon: Settings"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"afile",
+				"A File Icon: Settings"
+			],
+			[
+				"af",
+				"A File Icon: Settings"
+			],
+			[
+				"a fileicon",
+				"A File Icon: Environment"
+			],
+			[
+				"pc",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gshopper/Documents/Projects/reverse"
+	],
+	"file_history":
+	[
+		"/Applications/WebStorm.app/Contents/bin/idea.properties",
+		"/Users/gshopper/Documents/Projects/gshopper-ios/fastlane/Fastfile",
+		"/Users/gshopper/Documents/Projects/gshopper-ios/archive.sh",
+		"/Users/gshopper/Documents/Projects/stripe/stripe-connect-rocketrides/server/config.js",
+		"/Users/gshopper/Documents/Projects/gshopper-ios/gshopper/Modules/Home/Views/ProductDetailCells/GSReviewContentCell.m",
+		"/Users/gshopper/Desktop/es_key",
+		"/Users/gshopper/Desktop/kr_key",
+		"/Users/gshopper/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/PreviewCSS/mweb-preview.css",
+		"/Users/gshopper/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/PreviewCSS/clear.css",
+		"/Users/gshopper/Desktop/精通iOS（第8版）目录",
+		"/Applications/MWeb.app/Contents/Resources/PreviewAsset/previewCSS/mweb-clearness.css",
+		"/Users/gshopper/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/PreviewCSS/mzh-theme-cmd.style",
+		"/Users/gshopper/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688851696442300/Cache/File/2019-07/gshopper-web-string/de.js",
+		"/Users/gshopper/Desktop/GSShippingFromCell.m",
+		"/Users/gshopper/Desktop/语言包/en",
+		"/Users/gshopper/Desktop/语言包/ge",
+		"/Users/gshopper/Desktop/精通iOS开发（目录）",
+		"/Users/gshopper/Desktop/bookmark.js",
+		"/Users/gshopper/Documents/Projects/gshopper-ios/Podfile",
+		"/Users/gshopper/Desktop/五笔方案/wubi86.schema.yaml",
+		"/Library/Input Methods/Squirrel.app/Contents/SharedSupport/luna_pinyin.schema.yaml",
+		"/Library/Input Methods/Squirrel.app/Contents/SharedSupport/default.yaml",
+		"/Users/gshopper/Desktop/五笔方案/wubi86.scheme.yaml",
+		"/Users/gshopper/Library/Rime/build/squirrel.yaml",
+		"/Users/gshopper/Library/Rime/installation.yaml",
+		"/Users/gshopper/Documents/tmp/所有SKU库存.json",
+		"/Users/gshopper/Library/Mobile Documents/com~apple~CloudDocs/Notebook/iOS/OC/OC基础知识.md",
+		"/Users/gshopper/Documents/tmp/商品详情",
+		"/Users/gshopper/Library/Application Support/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/Users/gshopper/Library/Application Support/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/gshopper/Documents/Projects/iOS/GCD/GCD/main.m",
+		"/Users/gshopper/Desktop/ddd",
+		"/Users/gshopper/Documents/Projects/iOS/Exercise/CircleRefrence/CircleRefrence/AppDelegate.swift"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "reverse.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gsreviewcontent",
+				"gshopper-ios/gshopper/Modules/Home/Views/ProductDetailCells/GSReviewContentCell.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
