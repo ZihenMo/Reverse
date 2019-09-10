@@ -1,1 +1,1 @@
-ssh root@localhost:9354 
+ssh root@localhost -p 9354
