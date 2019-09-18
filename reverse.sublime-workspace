@@ -20,6 +20,14 @@
 		"selected_items":
 		[
 			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
 				"wrap",
 				"Word Wrap: Toggle"
 			],
@@ -104,10 +112,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/gshopper/Documents/Projects/reverse"
+		"/Users/gshopper/Documents/Projects/reverse",
+		"/Users/gshopper/Documents/Projects/reverse/command",
+		"/Users/gshopper/Documents/Projects/reverse/src"
 	],
 	"file_history":
 	[
+		"/Users/gshopper/Documents/Projects/reverse/command/usbmap.sh",
+		"/Users/gshopper/Documents/Projects/reverse/command/login.sh",
+		"/Users/gshopper/Documents/Projects/reverse/command/run.sh",
+		"/Users/gshopper/Documents/Projects/reverse/src/Tool.cy",
+		"/Users/gshopper/.bashrc",
 		"/Applications/WebStorm.app/Contents/bin/idea.properties",
 		"/Users/gshopper/Documents/Projects/gshopper-ios/fastlane/Fastfile",
 		"/Users/gshopper/Documents/Projects/gshopper-ios/archive.sh",
@@ -144,13 +159,15 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
 		"height": 132.0,
 		"where_history":
 		[
+			"<current file>",
+			""
 		]
 	},
 	"find_state":
@@ -158,6 +175,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\t"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -165,6 +183,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			" | "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -186,7 +205,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -211,6 +230,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
