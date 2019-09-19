@@ -7,6 +7,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "iosreverse/Makefile",
+			"settings":
+			{
+				"buffer_size": 559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -20,6 +29,30 @@
 		"selected_items":
 		[
 			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indenlin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"forma",
+				"JSFMT: Toggle autoformat"
+			],
+			[
+				"form",
+				"JSFMT: Format the current file"
+			],
+			[
+				"logos",
+				"Set Syntax: Logos"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
 				"javas",
 				"Set Syntax: JavaScript"
 			],
@@ -32,24 +65,12 @@
 				"Word Wrap: Toggle"
 			],
 			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"css",
 				"Emmet: Reflect CSS Value"
 			],
 			[
-				"forma",
-				"JSFMT: Format the current file"
-			],
-			[
 				"format",
 				"JSFMT: Format the current file"
-			],
-			[
-				"pcip",
-				"Package Control: Install Package"
 			],
 			[
 				"p",
@@ -114,10 +135,14 @@
 	[
 		"/Users/gshopper/Documents/Projects/reverse",
 		"/Users/gshopper/Documents/Projects/reverse/command",
+		"/Users/gshopper/Documents/Projects/reverse/reversetarget",
 		"/Users/gshopper/Documents/Projects/reverse/src"
 	],
 	"file_history":
 	[
+		"/Users/gshopper/Documents/Projects/reverse/iosreverse/Tweak.xm",
+		"/Users/gshopper/Documents/Projects/reverse/reversetarget/MZRootViewController.mm",
+		"/Users/gshopper/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/Users/gshopper/Documents/Projects/reverse/command/usbmap.sh",
 		"/Users/gshopper/Documents/Projects/reverse/command/login.sh",
 		"/Users/gshopper/Documents/Projects/reverse/command/run.sh",
@@ -175,6 +200,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\"",
 			"\t"
 		],
 		"highlight": true,
@@ -183,6 +209,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			" ",
 			" | "
 		],
 		"reverse": false,
@@ -194,8 +221,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "iosreverse/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -242,7 +298,7 @@
 	"project": "reverse.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
