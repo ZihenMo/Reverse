@@ -1,0 +1,9 @@
+Package: com.mzh.hooktarget
+Name: HookTarget
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: mozihen
+Author: mozihen
+Section: Utilities
+Version: 0.0.1-4+debug
+Installed-Size: 84

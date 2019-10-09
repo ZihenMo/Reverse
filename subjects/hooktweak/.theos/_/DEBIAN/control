@@ -1,0 +1,10 @@
+Package: com.mzh.hooktweak
+Name: HookTweak
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: mozihen
+Author: mozihen
+Section: Tweaks
+Version: 0.0.1-18+debug
+Installed-Size: 76

@@ -1,0 +1,3 @@
+@interface MZRootViewController : UITableViewController
+
+@end
