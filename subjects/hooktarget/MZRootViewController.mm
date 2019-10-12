@@ -1,4 +1,5 @@
 #import "MZRootViewController.h"
+#import <UIKit/UIKit.h>
 
 
 class CPPClass {
@@ -59,6 +60,11 @@ extern "C" void ShortCFunction(const char *arg0) {
     CPPClass cppClass;
     cppClass.CPPFunc(arg0);
 }
+
+@interface MZRootViewController ()
+
+@end
+
 @implementation MZRootViewController {
 	NSMutableArray *_objects;
 }
@@ -84,7 +90,7 @@ extern "C" void ShortCFunction(const char *arg0) {
 }
 
 - (void)addButtonTapped:(id)sender {
-	[_objects insertObject:[NSDate date] atIndex:0];
+    [_objects insertObject:@{@"date":[NSDate date]} atIndex:0];
 	[self.tableView insertRowsAtIndexPaths:@[ [NSIndexPath indexPathForRow:0 inSection:0] ] withRowAnimation:UITableViewRowAnimationAutomatic];
     [self hookTest];
     NSLog(@"Hello!");
@@ -108,8 +114,10 @@ extern "C" void ShortCFunction(const char *arg0) {
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
 	}
 
-	NSDate *date = _objects[indexPath.row];
+	NSDate *date = _objects[indexPath.row][@"date"];
 	cell.textLabel.text = date.description;
+    UIColor *color = _objects[indexPath.row][@"color"];
+    cell.textLabel.textColor = color;
 	return cell;
 }
 
@@ -121,7 +129,30 @@ extern "C" void ShortCFunction(const char *arg0) {
 #pragma mark - Table View Delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self debugTest: indexPath];
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (void)debugTest: (NSIndexPath *)indexPath {
+    if (indexPath.row % 3) {
+        [self showRed: indexPath];
+    }
+    else {
+        [self showBlue: indexPath];
+    }
+}
+
+- (void)showRed: (NSIndexPath *)indexPath {
+    NSMutableDictionary *obj =  [_objects[indexPath.row] mutableCopy];
+    obj[@"color"] = UIColor.redColor;
+    _objects[indexPath.row] = obj;
+    [self.tableView reloadRowsAtIndexPaths: @[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+}
+- (void)showBlue: (NSIndexPath *)indexPath {
+    NSMutableDictionary *obj =  [_objects[indexPath.row] mutableCopy];
+    obj[@"color"] = UIColor.blueColor;
+    _objects[indexPath.row] = obj;
+    [self.tableView reloadRowsAtIndexPaths: @[indexPath] withRowAnimation:UITableViewRowAnimationNone];
 }
 
 @end
